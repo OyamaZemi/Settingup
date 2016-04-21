@@ -77,7 +77,7 @@ conda install python=3.5
 
 * [Setting up Your Julia Environment](http://quant-econ.net/jl/getting_started.html)
 
-1. julialang.org/downloads の "Julia (command line version)" から自分の OS に合ったものをダウンロードする．
+1. [julialang.org/downloads](http://julialang.org/downloads/) の "Julia (command line version)" から自分の OS に合ったものをダウンロードする．
 2. ダウンロードされたファイルをダブルクリックし，あとは指示に従う．
 
 ### パッケージのインストール
@@ -87,7 +87,7 @@ conda install python=3.5
 
 ## GitHub
 
-1. github.com でアカウントを作る．
+1. [github.com](https://github.com) でアカウントを作る．
    (誰だか想像できないようなアカウント名のときは，名前を登録する．)
 2. アカウント名を教員にメールで知らせる．
 3. [QuantEcon.jl](https://github.com/QuantEcon/QuantEcon.jl) を "fork" してみる．
