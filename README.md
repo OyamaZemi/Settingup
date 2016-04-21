@@ -30,6 +30,46 @@ conda create -n py35 python=3.5
 
 Activate させたあと最低限のライブラリをインストールする：
 
+### ライブラリを追加する
+
+`quantecon` ライブラリをインストールしてみる (`conda` には登録されていないので `pip` を使う)．  
+「ターミナル」で
+
+```
+pip install quantecon
+```
+
+と打つ．  
+(すでにインストールしていて，アップデートするときは
+
+```
+pip install quantecon -U
+```
+
+と `-U` オプションを加える．)
+
+### アップデート
+
+Anaconda をアップデートするには，「ターミナル」で
+
+```
+conda update conda
+```
+
+```
+conda update anaconda
+```
+
+と打つ．
+
+前年度に Python 2 をインストールしている人は，
+
+```
+conda install python=3.5
+```
+
+で Python 3.5 にアップデートする．
+
 
 ## Julia
 
