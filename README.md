@@ -14,6 +14,25 @@ Anaconda という Python パッケージをインストールする．
 
 ### 大学のコンピュータ
 
+デフォルト状態で「ターミナル」で
+
+```
+python
+```
+
+と打つと Python 2.7 が立ち上がるようになっている．
+これを 3.5 にするには
+
+```
+pyenv local anaconda3-2.4.0
+```
+
+と打つ (1回やればよい)．
+以後 `python` と打つと Python 3.5 が立ち上がるようになる．
+ただし，この環境には自分でライブラリをインストールすることはできない．
+
+#### 自前環境の作成
+
 大学のコンピュータの Python 環境には管理者権限がないと新しいライブラリが追加できないので，以下のように最小限の環境を自分のホームディレクトリに作る．
 
 「ターミナル」で
@@ -24,11 +43,29 @@ conda create -n py35 python=3.5
 と打つ．
 `py35` は好きな名前にしてよい．
 
+#### 自前環境の起動
+
 作られた `py35` 環境を activate するにはひと工夫必要．
 
 * [pyenvとanacondaを共存させる時のactivate衝突問題の回避策3種類](http://qiita.com/y__sama/items/f732bb7bec2bff355b69)
 
+ひとつのやり方は
+
+```
+source ~/.conda/envs/py35/bin/activate py35
+```
+
+(上で違う名前にした人は `py35` の部分を適切に変える．)
+
+このあと `python` と打つと自前の python 環境が立ち上がる (毎回 activate する必要がある)．
+
+#### 自前環境へのライブラリのインストール
+
 Activate させたあと最低限のライブラリをインストールする：
+
+```
+conda install numpy scipy jupyter matplotlib numba pandas statsmodels sympy sphinx numpydoc requests
+```
 
 ### ライブラリを追加する
 
