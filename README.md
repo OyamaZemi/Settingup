@@ -64,7 +64,7 @@ source ~/.conda/envs/py35/bin/activate py35
 Activate させたあと最低限のライブラリをインストールする：
 
 ```
-conda install numpy scipy jupyter matplotlib numba pandas statsmodels sympy sphinx numpydoc requests
+conda install numpy scipy jupyter matplotlib numba pandas statsmodels sympy sphinx numpydoc requests nose
 ```
 
 ### ライブラリを追加する
