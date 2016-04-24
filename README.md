@@ -126,7 +126,8 @@ conda install python=3.5
 
 1. [github.com](https://github.com) でアカウントを作る．
    (誰だか想像できないようなアカウント名のときは，名前を登録する．)
-2. アカウント名を教員にメールで知らせる．
+2. [OyamaZemi/exercises2016](https://github.com/OyamaZemi/exercises2016) の "Watch" ボタンを押す．
+   ("Watchers" のページがゼミ生アカウント一覧になる．)
 3. [QuantEcon.jl](https://github.com/QuantEcon/QuantEcon.jl) を "fork" してみる．
 
 ### SourceTree
