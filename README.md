@@ -130,6 +130,15 @@ conda install python=3.5
 
 [Setting up Your Julia Environment](http://quant-econ.net/jl/getting_started.html) に従う．
 
+何かうまくいかないことがあったら，`Pkg.rm` でパッケージを remove して再度 add すると解決することもある．
+たとえば IJulia を消すには Julia を立ち上げた上で
+
+```
+Pkg.rm("IJulia")
+```
+
+と入力する．
+
 
 ## GitHub
 
