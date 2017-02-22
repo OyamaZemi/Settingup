@@ -108,13 +108,17 @@ conda update anaconda
 
 と打つ．
 
-前年度に Python 2 をインストールしている人は，
+過去に 3.6 未満をインストールしている人は，
 
 ```
-conda install python=3.5
+conda install python=3.6
 ```
 
-で Python 3.5 にアップデートする．
+で Python 3.6 にアップデートする．
+「conflict が見つかった」と言われたら，当該パッケージを `conda remove` で消していく．
+そのあと `conda update conda`, `conda update anaconda` を実行する．  
+いつの間にか `anaconda` を消していると，`conda update anaconda` で「anaconda がない」と言われる．
+その場合は `conda install anaconda` で `anaconda` を再度インストールする．
 
 
 ## Julia
