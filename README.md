@@ -43,7 +43,7 @@ pyenv local anaconda-2.4.0
 ```
 pyenv local anaconda3-2.4.0
 ```
-と打てば, python 3.4に切り替わる.
+と打てば, python 3.5に切り替わる.
 
 #### 自前環境の作成
 
