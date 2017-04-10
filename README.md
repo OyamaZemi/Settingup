@@ -9,7 +9,7 @@ Anaconda という Python パッケージをインストールする．
 
 ### 自分のコンピュータ
 
-1. www.continuum.io/downloads から自分の OS に合わせて PYTHON 3.5 (64-BIT GRAPHICAL INSTALLER) をダウンロードする．
+1. www.continuum.io/downloads から自分の OS に合わせて PYTHON 3.6 (64-BIT GRAPHICAL INSTALLER) をダウンロードする．
 2. ダウンロードされたファイルをダブルクリックし，あとは指示に従う．
 
 ### 大学のコンピュータ
@@ -30,46 +30,31 @@ quit()
 
 と入力する．
 
-これを 2.7 にするには (Python を終了させた上で)
-
-```
-pyenv local anaconda-2.4.0
-```
-
-と打つ (1回やればよい)．
-以後 `python` と打つと Python 2.7 が立ち上がるようになる．
-ただし，この環境には自分でライブラリをインストールすることはできない．
-
-```
-pyenv local anaconda3-2.4.0
-```
-と打てば, python 3.5に切り替わる.
-
 #### 自前環境の作成
 
 大学のコンピュータの Python 環境には管理者権限がないと新しいライブラリが追加できないので，以下のように最小限の環境を自分のホームディレクトリに作る．
 
 「ターミナル」で
 ```
-conda create -n py35 python=3.5
+conda create -n py36 python=3.6
 ```
 
 と打つ．
-`py35` は好きな名前にしてよい．
+`py36` は好きな名前にしてよい．
 
 #### 自前環境の起動
 
-作られた `py35` 環境を activate するにはひと工夫必要．
+作られた `py36` 環境を activate するにはひと工夫必要．
 
 * [pyenvとanacondaを共存させる時のactivate衝突問題の回避策3種類](http://qiita.com/y__sama/items/f732bb7bec2bff355b69)
 
 ひとつのやり方は
 
 ```
-source ~/.conda/envs/py35/bin/activate py35
+source ~/.conda/envs/py36/bin/activate py36
 ```
 
-(上で違う名前にした人は `py35` の部分を適切に変える．)
+(上で違う名前にした人は `py36` の部分を適切に変える．)
 
 このあと `python` と打つと自前の python 環境が立ち上がる (毎回 activate する必要がある)．
 
