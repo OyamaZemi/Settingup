@@ -9,7 +9,7 @@ Anaconda という Python パッケージをインストールする．
 
 ### 自分のコンピュータ
 
-1. www.continuum.io/downloads から自分の OS に合わせて PYTHON 3.6 (64-BIT GRAPHICAL INSTALLER) をダウンロードする．
+1. www.continuum.io/downloads から自分の OS に合わせて Python 3.6 version (GRAPHICAL INSTALLER あるいは 64-BIT GRAPHICAL INSTALLER) をダウンロードする．
 2. ダウンロードされたファイルをダブルクリックし，あとは指示に従う．
 
 ### 大学のコンピュータ
