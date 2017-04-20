@@ -138,7 +138,7 @@ Pkg.rm("IJulia")
 
 1. [github.com](https://github.com) でアカウントを作る．
    (誰だか想像できないようなアカウント名のときは，名前を登録する．)
-2. [OyamaZemi/exercises2016](https://github.com/OyamaZemi/exercises2016) の "Watch" ボタンを押す．
+2. [OyamaZemi/exercises2017](https://github.com/OyamaZemi/exercises2017) の "Watch" ボタンを押す．
    ("Watchers" のページがゼミ生アカウント一覧になる．)
 3. [QuantEcon.jl](https://github.com/QuantEcon/QuantEcon.jl) を "fork" してみる．
 
