@@ -1,6 +1,9 @@
 # 環境設定いろいろ
 ゼミの初回にやること
 
+## はじめに
+
+* [ターミナルの基本的な使い方](http://hwb.ecc.u-tokyo.ac.jp/current/information/cui/terminal/)
 
 ## Python
 
