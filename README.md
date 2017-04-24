@@ -147,6 +147,16 @@ Pkg.update()
 と入力する．
 毎回ゼミの前に実行しておくようにするとよい．
 
+### Jupyter Notebook
+
+Jupyter notebook を開いたときに Julia の最新版が反映されない場合は (Julia を立ち上げた上で)
+
+```
+Pkg.build("IJulia")
+```
+
+と入力して `IJulia` をビルドし直す．
+
 
 ## GitHub
 
