@@ -5,6 +5,21 @@
 
 * [ターミナルの基本的な使い方](http://hwb.ecc.u-tokyo.ac.jp/current/information/cui/terminal/)
 
+### Mac ユーザ
+
+Mac 所有者は「コマンドライン・ツール」をインストールしておく．
+
+「ターミナル」を開いて
+
+```
+xcode-select --install
+```
+
+と打つ (すでにインストールしている人は "command line tools are already installed" と出るはず)．
+出てきたウィンドウにしたがって「コマンドライン・ツール」をインストールする．
+すぐには終わらないので先に進んでおく．
+
+
 ## Python
 
 Anaconda という Python パッケージをインストールする．
