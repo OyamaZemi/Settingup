@@ -27,7 +27,7 @@ Anaconda という Python パッケージをインストールする．
 
 ### 自分のコンピュータ
 
-1. www.continuum.io/downloads から自分の OS に合わせて Python 3.6 version (GRAPHICAL INSTALLER あるいは 64-BIT GRAPHICAL INSTALLER) をダウンロードする．
+1. www.anaconda.com/download から自分の OS に合わせて Python 3.6 version をダウンロードする．
 2. ダウンロードされたファイルをダブルクリックし，あとは指示に従う．
 
 ### 大学のコンピュータ
@@ -137,6 +137,8 @@ conda install python=3.6
 
 1. [julialang.org/downloads](http://julialang.org/downloads/) の "Julia (command line version)" から自分の OS に合ったものをダウンロードする．
 2. ダウンロードされたファイルをダブルクリックし，あとは指示に従う．
+
+* [Julia 0.7と1.0の関係](https://qiita.com/bicycle1885/items/9f9297d34d5f2ad56358)
 
 ### パッケージのインストール
 
