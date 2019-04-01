@@ -179,13 +179,11 @@ Pkg.build("IJulia")
 
 1. [github.com](https://github.com) でアカウントを作る．
    (誰だか想像できないようなアカウント名のときは，名前を登録する．)
-2. [OyamaZemi/exercises2017](https://github.com/OyamaZemi/exercises2017) の "Watch" ボタンを押す．
-   ("Watchers" のページがゼミ生アカウント一覧になる．)
-3. [QuantEcon.jl](https://github.com/QuantEcon/QuantEcon.jl) を "fork" してみる．
+2. [QuantEcon.py](https://github.com/QuantEcon/QuantEcon.py) を "fork" してみる．
 
 ### SourceTree
 
 1. Git の GUI クライアント SourceTree を www.sourcetreeapp.com からダウンロードしてインストールする．
-2. SourceTree を立ち上げて，QuantEcon.jl のローカルクローンを作ってみる．  
+2. SourceTree を立ち上げて，QuantEcon.py のローカルクローンを作ってみる．  
    リモートレポジトリを設定してみる．
    * [SourceTreeでリモートリポジトリを設定](http://blog.shinji.asia/sourcetree_git/#rem_repo)
