@@ -1,5 +1,5 @@
 # 環境設定いろいろ
-ゼミの初回にやること
+ゼミの初回にやること(Apr 1, 2019 updated)
 
 ## はじめに
 
@@ -27,7 +27,7 @@ Anaconda という Python パッケージをインストールする．
 
 ### 自分のコンピュータ
 
-1. www.anaconda.com/download から自分の OS に合わせて Python 3.6 version をダウンロードする．
+1. www.anaconda.com/download から自分の OS に合わせて Python 3.7 version をダウンロードする．
 2. ダウンロードされたファイルをダブルクリックし，あとは指示に従う．
 
 ### 大学のコンピュータ
@@ -54,25 +54,25 @@ quit()
 
 「ターミナル」で
 ```
-conda create -n py36 python=3.6
+conda create -n py37 python=3.7
 ```
 
 と打つ．
-`py36` は好きな名前にしてよい．
+`py37` は好きな名前にしてよい．
 
 #### 自前環境の起動
 
-作られた `py36` 環境を activate するにはひと工夫必要．
+作られた `py37` 環境を activate するにはひと工夫必要．
 
 * [pyenvとanacondaを共存させる時のactivate衝突問題の回避策3種類](http://qiita.com/y__sama/items/f732bb7bec2bff355b69)
 
 ひとつのやり方は
 
 ```
-source ~/.conda/envs/py36/bin/activate py36
+source ~/.conda/envs/py36/bin/activate py37
 ```
 
-(上で違う名前にした人は `py36` の部分を適切に変える．)
+(上で違う名前にした人は `py37` の部分を適切に変える．)
 
 このあと `python` と打つと自前の python 環境が立ち上がる (毎回 activate する必要がある)．
 
@@ -116,13 +116,13 @@ conda update anaconda
 
 と打つ．
 
-過去に 3.6 未満をインストールしている人は，
+過去に 3.7 未満をインストールしている人は，
 
 ```
-conda install python=3.6
+conda install python=3.7
 ```
 
-で Python 3.6 にアップデートする．
+で Python 3.7 にアップデートする．
 「conflict が見つかった」と言われたら，当該パッケージを `conda remove` で消していく．
 そのあと `conda update conda`, `conda update anaconda` を実行する．  
 いつの間にか `anaconda` を消していると，`conda update anaconda` で「anaconda がない」と言われる．
