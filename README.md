@@ -1,5 +1,5 @@
 # 環境設定いろいろ
-ゼミの初回にやること(Apr 1, 2019 updated)
+ゼミの初回にやること(2019 ver)
 
 ## はじめに
 
@@ -38,7 +38,7 @@ Anaconda という Python パッケージをインストールする．
 python
 ```
 
-と打つと Python 3.5 が立ち上がるようになっている．
+と打つと Python 3.6.1 が立ち上がるようになっている．
 
 Python を終了させるには
 
@@ -69,10 +69,11 @@ conda create -n py37 python=3.7
 ひとつのやり方は
 
 ```
-source ~/.conda/envs/py36/bin/activate py37
+source activate py37
 ```
 
 (上で違う名前にした人は `py37` の部分を適切に変える．)
+(先述のリンクでは`conda activate`が使えるようになったと書いてあるが,大学のコンピュータでは使えなかったので`source activate`でよい.)
 
 このあと `python` と打つと自前の python 環境が立ち上がる (毎回 activate する必要がある)．
 
