@@ -27,7 +27,7 @@ Anaconda という Python パッケージをインストールする．
 
 ### 自分のコンピュータ
 
-1. www.anaconda.com/download から自分の OS に合わせて Python 3.7 version をダウンロードする．
+1. www.anaconda.com/distribution から自分の OS に合わせて Python 3.7 version をダウンロードする．
 2. ダウンロードされたファイルをダブルクリックし，あとは指示に従う．
 
 ### 大学のコンピュータ
