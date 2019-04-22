@@ -179,6 +179,7 @@ Pkg.build("IJulia")
 
 ## Git
 バージョン管理システム.変更履歴が残り,共同作業でも混乱する恐れがなくなるので便利.
+
 QuantEconも世界中の開発者が共同で開発しているので,このシステムを使っている.
 [git入門](https://backlog.com/ja/git-tutorial/intro/intro1_1.html)
 
