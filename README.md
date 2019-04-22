@@ -176,13 +176,24 @@ Pkg.build("IJulia")
 と入力して `IJulia` をビルドし直す．
 
 
-## GitHub
+
+## Git
+バージョン管理システム.変更履歴が残り,共同作業でも混乱する恐れがなくなるので便利.
+QuantEconも世界中の開発者が共同で開発しているので,このシステムを使っている.
+[git入門](https://backlog.com/ja/git-tutorial/intro/intro1_1.html)
+
+
+### GitHub
+
+Gitを扱うサーバー.
 
 1. [github.com](https://github.com) でアカウントを作る．
    (誰だか想像できないようなアカウント名のときは，名前を登録する．)
 2. [QuantEcon.py](https://github.com/QuantEcon/QuantEcon.py) を "fork" してみる．
 
 ### SourceTree
+
+Gitの操作を簡単にするGUIツール.
 
 1. Git の GUI クライアント SourceTree を www.sourcetreeapp.com からダウンロードしてインストールする．
 2. SourceTree を立ち上げて，QuantEcon.py のローカルクローンを作ってみる．  
