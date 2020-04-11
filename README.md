@@ -3,7 +3,7 @@
 
 ## はじめに
 
-* [ターミナルの基本的な使い方](http://hwb.ecc.u-tokyo.ac.jp/current/information/cui/terminal/)
+* [ターミナルの基本的な使い方](https://hwb.ecc.u-tokyo.ac.jp/wp/information-2/cui/terminal/)
 
 ### Mac ユーザ
 
@@ -23,7 +23,7 @@ xcode-select --install
 ## Python
 
 Anaconda という Python パッケージをインストールする．
-* [Setting up Your Python Environment](http://quant-econ.net/py/getting_started.html)
+* [Setting up Your Python Environment](https://python-programming.quantecon.org/getting_started.html)
 
 ### 自分のコンピュータ
 
@@ -134,22 +134,20 @@ conda install python=3.7
 
 自分のコンピュータ，大学のコンピュータ共通．
 
-* [Setting up Your Julia Environment](http://quant-econ.net/jl/getting_started.html)
+* [Setting up Your Julia Environment](https://julia.quantecon.org/getting_started_julia/getting_started.html)
 
-1. [julialang.org/downloads](http://julialang.org/downloads/) の "Julia (command line version)" から自分の OS に合ったものをダウンロードする．
+1. [julialang.org/downloads](http://julialang.org/downloads/) の "Current stable release" から自分の OS に合ったものをダウンロードする．
 2. ダウンロードされたファイルをダブルクリックし，あとは指示に従う．
-
-* [Julia 0.7と1.0の関係](https://qiita.com/bicycle1885/items/9f9297d34d5f2ad56358)
 
 ### パッケージのインストール
 
-[Setting up Your Julia Environment](http://quant-econ.net/jl/getting_started.html) に従う．
+[Setting up Your Julia Environment](https://julia.quantecon.org/getting_started_julia/getting_started.html) に従う．
 
 何かうまくいかないことがあったら，`Pkg.rm` でパッケージを remove して再度 add すると解決することもある．
 たとえば IJulia を消すには Julia を立ち上げた上で
 
 ```
-Pkg.rm("IJulia")
+] rm IJulia
 ```
 
 と入力する．
@@ -159,7 +157,7 @@ Pkg.rm("IJulia")
 パッケージたちをアップデートするには (Julia を立ち上げた上で)
 
 ```
-Pkg.update()
+] update
 ```
 
 と入力する．
@@ -170,7 +168,7 @@ Pkg.update()
 Jupyter notebook を開いたときに Julia の最新版が反映されない場合は (Julia を立ち上げた上で)
 
 ```
-Pkg.build("IJulia")
+] build IJulia
 ```
 
 と入力して `IJulia` をビルドし直す．
