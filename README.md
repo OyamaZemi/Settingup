@@ -38,7 +38,7 @@ Anaconda という Python パッケージをインストールする．
 python
 ```
 
-と打つと Python 3.6.1 が立ち上がるようになっている．
+と打つと Python が立ち上がるようになっている．
 
 Python を終了させるには
 
@@ -54,25 +54,25 @@ quit()
 
 「ターミナル」で
 ```
-conda create -n py37 python=3.7
+conda create -n py310 python=3.10
 ```
 
 と打つ．
-`py37` は好きな名前にしてよい．
+`py310` は好きな名前にしてよい．
 
 #### 自前環境の起動
 
-作られた `py37` 環境を activate するにはひと工夫必要．
+作られた `py310` 環境を activate するにはひと工夫必要．
 
 * [pyenvとanacondaを共存させる時のactivate衝突問題の回避策3種類](http://qiita.com/y__sama/items/f732bb7bec2bff355b69)
 
 ひとつのやり方は
 
 ```
-source activate py37
+source activate py310
 ```
 
-(上で違う名前にした人は `py37` の部分を適切に変える．)
+(上で違う名前にした人は `py310` の部分を適切に変える．)
 (先述のリンクでは`conda activate`が使えるようになったと書いてあるが,大学のコンピュータでは使えなかったので`source activate`でよい.)
 
 このあと `python` と打つと自前の python 環境が立ち上がる (毎回 activate する必要がある)．
@@ -82,7 +82,7 @@ source activate py37
 Activate させたあと最低限のライブラリをインストールする：
 
 ```
-conda install numpy scipy jupyter matplotlib numba pandas statsmodels sympy sphinx numpydoc requests nose
+conda install numpy scipy jupyter matplotlib numba pandas sympy sphinx numpydoc requests pytest
 ```
 
 ### ライブラリを追加する
@@ -117,13 +117,13 @@ conda update anaconda
 
 と打つ．
 
-過去に 3.7 未満をインストールしている人は，
+過去に 3.10 未満をインストールしている人は，
 
 ```
-conda install python=3.7
+conda install python=3.10
 ```
 
-で Python 3.7 にアップデートする．
+で Python 3.10 にアップデートする．
 「conflict が見つかった」と言われたら，当該パッケージを `conda remove` で消していく．
 そのあと `conda update conda`, `conda update anaconda` を実行する．  
 いつの間にか `anaconda` を消していると，`conda update anaconda` で「anaconda がない」と言われる．
@@ -197,4 +197,3 @@ Gitの操作を簡単にするGUIツール.
 1. Git の GUI クライアント SourceTree を www.sourcetreeapp.com からダウンロードしてインストールする．
 2. SourceTree を立ち上げて，QuantEcon.py のローカルクローンを作ってみる．  
    リモートレポジトリを設定してみる．
-   * [SourceTreeでリモートリポジトリを設定](http://blog.shinji.asia/sourcetree_git/#rem_repo)
