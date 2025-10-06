@@ -197,3 +197,28 @@ Gitの操作を簡単にするGUIツール.
 1. Git の GUI クライアント SourceTree を www.sourcetreeapp.com からダウンロードしてインストールする．
 2. SourceTree を立ち上げて，QuantEcon.py のローカルクローンを作ってみる．  
    リモートレポジトリを設定してみる．
+
+## 学生として GitHub Copilot Pro を無料利用する手続き
+
+1. **学生認証を取得する**  
+   [GitHub Education](https://education.github.com/) で学生ステータスを取得する．
+   * 学校のメールアドレスまたは在籍証明書類をアップロード
+   * 承認まで数日かかる場合がある
+
+2. **Copilot Pro へアクセスする**  
+   承認後，GitHub のプロフィール → Settings → Copilot (Your Copilot) で「Get access」をクリック．
+
+3. **設定を保存する**  
+   利用規約とデータ利用ポリシーを確認して保存．
+
+4. **注意点**
+   * 毎月，学生資格の再評価が行われる
+   * 表示されない場合は再ログインや承認状況を確認
+   * 既存の有料プランやトライアルがある場合は先に解除が必要
+
+5. **代替手段**  
+   資格がない場合は [Copilot Free](https://github.com/features/copilot) または Pro トライアル (30日間) を検討．
+
+参考リンク：
+* [Getting free access to GitHub Copilot Pro as a student, teacher, or maintainer](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer)
+* [Getting started with a GitHub Copilot plan](https://docs.github.com/en/copilot/about-github-copilot/subscription-plans-for-github-copilot)
