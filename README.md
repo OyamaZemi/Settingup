@@ -118,23 +118,6 @@ Julia を使う場合の導入手順，パッケージ管理，Jupyter との連
 
 
 
-## はじめに
-
-* [ターミナルの基本的な使い方](https://hwb.ecc.u-tokyo.ac.jp/wp/information-2/cui/terminal/)
-
-### Mac ユーザ
-
-Mac 所有者は「コマンドライン・ツール」をインストールしておく．
-
-「ターミナル」を開いて
-
-```
-xcode-select --install
-```
-
-と打つ (すでにインストールしている人は "command line tools are already installed" と出るはず)．
-出てきたウィンドウにしたがって「コマンドライン・ツール」をインストールする．
-すぐには終わらないので先に進んでおく．
 
 
 ## Python
