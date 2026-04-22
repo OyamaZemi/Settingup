@@ -58,7 +58,7 @@ conda install numpy scipy matplotlib pandas jupyter
 `quantecon` を入れる場合は，次を実行する．
 
 ```bash
-pip install quantecon
+conda install quantecon
 ```
 
 ## 5. アップデート
