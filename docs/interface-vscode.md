@@ -177,21 +177,10 @@ poetry install
 環境名を指定しなければ，現在の環境にインストールされる．
 
 ```bash
-conda install numpy scipy matplotlib pandas jupyter
+conda install numpy scipy matplotlib pandas jupyter quantecon
 ```
 
 `conda` で見つからないパッケージは，まず `conda-forge` を試し，それでもなければ環境内の `pip` を使う．
-
-```bash
-conda install -c conda-forge quantecon
-```
-
-または：
-
-```bash
-conda install pip
-pip install quantecon
-```
 
 #### 補足
 
