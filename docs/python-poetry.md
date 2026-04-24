@@ -18,6 +18,7 @@ macOS / Linux:
 
 ```bash
 python3 --version
+```
 
 Windows:
 
