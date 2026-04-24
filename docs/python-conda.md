@@ -62,6 +62,12 @@ conda install numpy scipy matplotlib pandas jupyter
 conda install quantecon
 ```
 
+最新バージョンを入れたい場合は，`conda-forge` チャンネルを指定する．
+
+```bash
+conda install -c conda-forge quantecon
+```
+
 ## 5. アップデート
 
 `conda` 自体を更新するには，次を実行する．
