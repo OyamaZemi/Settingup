@@ -55,10 +55,10 @@ conda install numpy scipy matplotlib pandas jupyter
 
 必要に応じて，他のライブラリも追加する．
 
-`quantecon` を入れる場合は，次を実行する．
+`quantecon` を入れる場合は，`conda-forge` チャンネルを指定して次を実行する．
 
 ```bash
-conda install quantecon
+conda install -c conda-forge quantecon
 ```
 
 ## 5. アップデート

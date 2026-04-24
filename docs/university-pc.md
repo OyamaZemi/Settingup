@@ -57,18 +57,18 @@ conda install numpy scipy jupyter matplotlib numba pandas sympy sphinx numpydoc 
 
 ### ライブラリを追加する
 
-`quantecon` ライブラリをインストールしてみる．  
+`quantecon` ライブラリをインストールしてみる (`conda-forge` チャンネルを使う)．  
 「ターミナル」で
 
 ```
-conda install quantecon
+conda install -c conda-forge quantecon
 ```
 
 と打つ．  
 (すでにインストールしていて，アップデートするときは
 
 ```
-conda update quantecon
+conda update -c conda-forge quantecon
 ```
 
 と打つ．)
