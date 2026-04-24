@@ -222,7 +222,7 @@ Jupyter と VS Code の使い分けは，おおよそ次のように考える．
 * Jupyter: 学習，実験，データ分析，結果の整理
 * VS Code: 複数ファイルの開発，長いコードの編集，Git との連携
 
-## 13. QuantEcon Lectures 
+## 13. QuantEcon Lectures
 
 QuantEcon Lectures [https://quantecon.org/lectures/] の各ノートは、
 右上の`Download Notebook`のボタンを押すことで、`.ipynb`をダウンロードできる。
