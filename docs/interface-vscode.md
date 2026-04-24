@@ -222,5 +222,4 @@ Git の詳しい使い方は `git-github.md` を参照すること。
 
 VS Code の設定は，大きく **User Settings** と **Workspace Settings** に分かれる。
 全体に共通で使いたい設定は User Settings，そのフォルダだけに適用したい設定は Workspace Settings に書く。
-Python の interpreter や表示方法をプロジェクトごとに変えたい場合は，Workspace Settings を使うと管理しやすい
-。設定画面は `⌘,` / `Ctrl+,` で開ける。 
+Python の interpreter や表示方法をプロジェクトごとに変えたい場合は，Workspace Settings を使うと管理しやすい。設定画面は `⌘,` / `Ctrl+,` で開ける。 
