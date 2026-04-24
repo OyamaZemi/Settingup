@@ -37,7 +37,7 @@ macOS / Linux:
 ```bash
 source .venv/bin/activate
 python3 -m pip install jupyterlab notebook
-````
+```
 
 Windows:
 
@@ -79,6 +79,8 @@ jupyter lab
 ```bash
 jupyter notebook
 ```
+
+ただし、Poetry を使っている場合には`poetry run` を手前につける。
 
 起動すると，通常はブラウザが開く．
 ブラウザが自動で開かない場合は，ターミナルに表示された `http://localhost:8888/...` のような URL をブラウザに貼り付ける．
