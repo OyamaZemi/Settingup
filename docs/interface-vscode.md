@@ -45,7 +45,7 @@ py -m venv .venv
 ```
 
 その後，Command Palette を開いて **Python: Select Interpreter** を実行し，`.venv` を選ぶ．
-Comand Palette は macOS では `⇧⌘P`，Windows / Linux では `Ctrl+Shift+P` で開ける。
+Command Palette は macOS では `⇧⌘P`，Windows / Linux では `Ctrl+Shift+P` で開ける。
 通常は，ワークスペース直下の `.venv` が候補に表示される．
 
 なおこの `.venv` は，`-m venv` の前に指定した Python を土台にして作られる．  
