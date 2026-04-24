@@ -206,7 +206,8 @@ pip install quantecon
 VS Code には **統合ターミナル** があり，通常のターミナルと同じようにコマンドを実行できる。
 メニューの **Terminal > New Terminal** や **View > Terminal** から開ける。
 Command Palette の **View: Toggle Terminal** でも開ける。ショートカットは 
-macOS では `⌃\``，Windows / Linux では `Ctrl+`` である。新しいターミナルを作るショートカットも用意されている。
+macOS では `` ⌃ + ` ``，Windows / Linux では `` Ctrl + ` `` である。
+新しいターミナルを作るには，macOS では `` ⌃ + ⇧ + ` ``，Windows / Linux では `` Ctrl + Shift + ` `` を使う．
 Explorer 上のフォルダを右クリックして **Open in Integrated Terminal** を使うこともできる。 
 
 Python や Git の操作で困ったら，まずこの統合ターミナルでコマンドを打つとよい。`venv` や `conda` の activate もここで行う。 
