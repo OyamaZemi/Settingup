@@ -224,6 +224,6 @@ Jupyter と VS Code の使い分けは，おおよそ次のように考える．
 
 ## 13. QuantEcon Lectures
 
-QuantEcon Lectures [https://quantecon.org/lectures/] の各ノートは、
-右上の`Download Notebook`のボタンを押すことで、`.ipynb`をダウンロードできる。
-Jupyter を起動してそのファイルを開くことで、レクチャーのコードを実行・編集できる。
+[QuantEcon Lectures](https://quantecon.org/lectures/) の各ノートは，
+右上の`Download Notebook`のボタンを押すことで，`.ipynb`をダウンロードできる．
+Jupyter を起動してそのファイルを開くことで，レクチャーのコードを実行・編集できる．
