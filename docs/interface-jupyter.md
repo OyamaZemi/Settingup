@@ -56,7 +56,7 @@ poetry add jupyterlab notebook
 
 ### `conda` を使う場合
 
-Anaconda Distribution をインストールした場合，通常は JupyterLab と Jupyter Notebook 
+Anaconda Distribution をインストールした場合，通常は JupyterLab と Jupyter Notebook
 が最初から含まれているため以下の操作は必要ない．次節に進んでできなかったら戻ってくれば良い．
 
 `conda` 環境を有効化してからインストールする．
