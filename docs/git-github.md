@@ -256,7 +256,7 @@ git push
 push すると，既存の Pull Request に追加 commit として反映される．
 GitHub 上では，対応したコメントに返信し，必要に応じて **Resolve conversation** を押す．
 
-### 4.11  `.gitignore` を設定する
+### 4.11 `.gitignore` を設定する
 
 Git では，仮想環境やキャッシュファイルなど，リポジトリに含める必要のないファイルを除外できる．  
 そのために使うのが `.gitignore` である．  
